@@ -9,14 +9,14 @@ Algoritmo AnalisisEconomicoSemanal
     
     diasSemana[1] <- "Lunes"
     diasSemana[2] <- "Martes"
-    diasSemana[3] <- "Miércoles"
+    diasSemana[3] <- "MiÃ©rcoles"
     diasSemana[4] <- "Jueves"
     diasSemana[5] <- "Viernes"
-    diasSemana[6] <- "Sábado"
+    diasSemana[6] <- "SÃ¡bado"
     diasSemana[7] <- "Domingo"
     
-    Escribir "ANÁLISIS DE ECONOMÍA SEMANAL"
-    Escribir "Ingrese el gasto en comida para cada día:"
+    Escribir "ECONOMIA SEMANAL"
+    Escribir "Ingrese el gasto en comida para cada dia:"
     
     suma <- 0
     Para i <- 1 Hasta 7 Con Paso 1 Hacer
@@ -29,7 +29,7 @@ Algoritmo AnalisisEconomicoSemanal
     
     Escribir "Promedio de gasto diario: $", promedio
         
-    Escribir "Días con gastos SUPERIORES al promedio:"
+    Escribir "DÃ­as con gastos SUPERIORES al promedio:"
     Para i <- 1 Hasta 7 Con Paso 1 Hacer
         Si gastoDiario[i] > promedio Entonces
             Escribir diasSemana[i], ": $", gastoDiario[i]
