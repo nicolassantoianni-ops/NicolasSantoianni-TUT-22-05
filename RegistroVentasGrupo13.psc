@@ -16,7 +16,7 @@ Algoritmo RegistroVentas
         
         
         Si monto < 0 Entonces
-            Escribir "ADVERTENCIA: No se permiten montos negativos."
+            Escribir "CUIDADO: No se permiten montos negativos."
         Sino
             
             Si monto > 0 Entonces
