@@ -5,10 +5,10 @@ Algoritmo ControlAcceso
     Definir TieneVIP Como Logico
     Definir Adentro Como Logico
        
-    Escribir "=== CONTROL DE ACCESO - ATRACCIÓN EXTREMA ==="
+    Escribir "CONTROL DE ACCESO - ATRACCION EXTREMA =PELIGRO="
     Escribir "Ingrese la estatura del cliente (en metros): " Sin Bajar
     Leer Altura
-    Escribir "¿Posee pase VIP? (S/N): " Sin Bajar
+    Escribir "Â¿Posee pase VIP? (S/N): " Sin Bajar
     Leer respuestaVIP
     
     
@@ -21,7 +21,7 @@ Algoritmo ControlAcceso
     
     Adentro <- (Altura > 1.50) Y TieneVIP
     
-    Escribir "Evaluación:"
+    Escribir "EvaluaciÃ³n:"
     Escribir "Puede entrar: ", Adentro
     
 FinAlgoritmo
