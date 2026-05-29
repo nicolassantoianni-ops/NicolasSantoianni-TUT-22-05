@@ -3,9 +3,7 @@ Algoritmo TicketCompra
     Definir precioUnitario, subtotal, iva, total Como Real
     Definir cantidad Como Entero
     
-	
-    Escribir "=== SIMULADOR DE TICKET DE COMPRA ==="
-    Escribir ""
+	Escribir "=== SIMULADOR DE TICKET DE COMPRA ==="
     Escribir "Ingrese el precio unitario del producto: " Sin Bajar
     Leer precioUnitario
     Escribir "Ingrese la cantidad de unidades compradas: " Sin Bajar
@@ -19,7 +17,6 @@ Algoritmo TicketCompra
 	Escribir "  --------------------------------- "
     Escribir "         TICKET DE COMPRA          "
 	Escribir "  --------------------------------- "
-    Escribir "  Producto:                         "
     Escribir "    Precio unitario: $", precioUnitario, ""
     Escribir "    Cantidad: ", cantidad, " unidades"
     Escribir "  --------------------------------- "
@@ -27,4 +24,5 @@ Algoritmo TicketCompra
     Escribir "  IVA (21%): $", iva, ""
     Escribir "  --------------------------------- "
     Escribir "  TOTAL A PAGAR: $", total, ""
+    Escribir "  --------------------------------- "
 FinAlgoritmo
